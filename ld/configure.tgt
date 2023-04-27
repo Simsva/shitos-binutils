@@ -449,6 +449,9 @@ i[3-7]86-*-vxworks*)	targ_emul=elf_i386_vxworks
 			;;
 i[3-7]86-*-chaos)	targ_emul=elf_i386_chaos
 			;;
+i[3-7]86-*-shitos*)	targ_emul=elf_i386_shitos
+			targ_emul=elf_i386
+			;;
 ia16-*-elf*)		targ_emul=elf_i386
 			targ_extra_emuls=i386msdos
 			;;
